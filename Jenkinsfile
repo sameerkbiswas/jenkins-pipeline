@@ -51,9 +51,9 @@ pipeline {
         }
     }
 
-    post {
+    /*post {
         always {
             cleanWs()  // Clean workspace after each build
         }
-    }
+    }*/
 }
